@@ -1,0 +1,106 @@
+<?php
+/**
+ * @file
+ * This is a basic module supplied with iCompany theme. You only need to Enable this if you use Piecemaker Slider with your theme.
+ */
+
+function icompany_module_help($path, $arg) {
+	switch ($path) {
+		case "admin/help#icompany" :
+			return '<p>' . t("This is a helper module supplied with iCompany theme. It's purpose is to serve backend of iCompany theme.. This module will flush the content of piecemaker.xml located in icompany/sliders/piecemaker/ theme directory at every 'insert', 'create' and 'update' event so that piecemaker can re-create create piecemaker.xml for new contents. <stront>Note:</strong> You only need to Enable this if you use Piecemaker Slider with your theme. ") . '</p>';
+			break;
+	}
+}
+
+
+/**
+ * Implements hook_block_info().
+ */
+
+
+function icompany_module_block_info() {
+	
+	$blocks['icompany_slider'] = array(
+	'info' => t('iCompany Theme Slider'), //The name that will appear in the block list.
+	'cache' => DRUPAL_CACHE_PER_ROLE, //Default
+	);
+	
+	return $blocks;
+}
+
+function icompany_module_block_view($delta = '') {
+	$block = array();
+	switch($delta) {
+		case 'icompany_slider' :
+			$block['subject'] = t('<none>');
+			if (user_access('access content')) {
+				$content = t('Content of this block will not be displayed. Slider will be displayed instead. To configure slider settings, visit theme setting page. ');
+				$block['content'] = $content;
+			}
+		break;
+			
+	
+	}
+	return $block;
+}
+
+
+// piecemaker.xml rebuild
+
+function rebuild_piecemaker_xml() {
+	$path = $_SERVER['DOCUMENT_ROOT'];
+
+	$path = rtrim($path, "/\\");
+
+	$file = $path  . base_path() .  drupal_get_path('theme', 'icompany') . '/sliders/piecemaker/piecemaker.xml' or die();
+
+	// open the file
+	$fp = fopen($file, 'w+');
+
+	$text = 'empty';
+
+	$fout = fwrite($fp, $text);
+
+	fclose($fp);
+}
+
+// flush piecemaker xml
+function icompany_module_node_insert($node) {
+	if ($node -> type == 'slider') {
+		rebuild_piecemaker_xml();
+	}
+}
+
+function icompany_module_node_update($node) {
+	if ($node -> type == 'slider') {
+		rebuild_piecemaker_xml();
+	}
+}
+
+function icompany_module_node_delete($node) {
+	if ($node -> type == 'slider') {
+		rebuild_piecemaker_xml();
+	}
+}
+
+function piecemaker_slider_helper(&$form, &$form_state){
+
+	// Open file and write XML stuffs in it	
+	$path = $_SERVER['DOCUMENT_ROOT'];
+	$path = rtrim($path, "/\\");
+	$file = $path . '/' . base_path()  . drupal_get_path('theme', 'icompany') . '/sliders/piecemaker/piecemaker.xml';
+
+	$fp = fopen($file, 'r+');
+	$fstring = fread($fp, filesize($file));	
+	
+	
+	// if file is epmty
+	fclose($fp);
+	$fp = fopen($file, 'w+') or print("Can’t open file $file");
+	
+	$text = 'empty';
+	//writes first line
+	$fout = fwrite($fp, $text);
+		
+
+}

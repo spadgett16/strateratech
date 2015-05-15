@@ -1,0 +1,202 @@
+name = Inno Company
+description = This is a multipurpose Drupal theme with loads of customization options. Apart from corporate/portfolio, you can use this theme in various other websites too. Theme by <a href="http://www.worthapost.com/">Worthapost</a>. <br/>Like this theme? Please give us 5 star on themeforest
+version = 1.5.05
+core = 7.x
+engine = phptemplate
+
+; styles
+stylesheets[all][] = style.css
+
+; scripts
+scripts[] = js/scripts.js
+
+
+; Important Drupal regions
+regions[help] = Help
+regions[content] = content
+regions[footer] = Footer
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+regions[main_menu] = Main Menu
+
+; iCompany Regions
+regions[search_box] = Top Search Box
+regions[social] = Top bar 
+regions[slider_region] = Slider
+regions[highlighted] = Highlighted
+regions[highlighted_2] = Highlighted 2
+
+regions[content_top] = Content Top
+regions[content_bottom] = Content Bottom
+regions[left_sidebar] = Left Sidebar (left to content)
+regions[right_sidebar] = Right Sidebar (right to content)
+
+regions[column_block1] = Column Block 1 (1st row)
+regions[column_block2] = Column Block 2 (1st row)
+regions[column_block3] = Column Block 3 (1st row)
+regions[column_block4] = Column Block 4 (1st row)
+regions[column_block5] = Column Block 5 (1st row)
+regions[column_block6] = Column Block 6 (1st row)
+
+regions[column_block1_second_row] = Column Block 1 (2nd row)
+regions[column_block2_second_row] = Column Block 2 (2nd row)
+regions[column_block3_second_row] = Column Block 3 (2nd row)
+regions[column_block4_second_row] = Column Block 4 (2nd row)
+regions[column_block5_second_row] = Column Block 5 (2nd row)
+regions[column_block6_second_row] = Column Block 6 (2nd row)
+
+regions[modal] = Modal Window
+regions[modal_2] = Modal Window 2
+regions[modal_3] = Modal Window 3
+
+regions[tab1] = jquery Tab 1
+regions[tab2] = jquery Tab 2
+regions[tab3] = jquery Tab 3
+regions[tab4] = jquery Tab 4
+regions[tab5] = jquery Tab 5
+regions[tab6] = jquery Tab 6
+
+regions[tabs_sidebar] = Sidebar of Tabs region
+
+regions[under1] = Under Content Zone - Block 1
+regions[under2] = Under Content Zone - Block 2
+regions[under3] = Under Content Zone - Block 3
+regions[under4] = Under Content Zone - Block 4
+regions[under5] = Under Content Zone - Block 5
+regions[under6] = Under Content Zone - Block 6
+
+regions[bottom1] = bottom 1
+regions[bottom2] = bottom 2
+regions[bottom3] = bottom 3
+regions[bottom4] = bottom 4
+regions[bottom5] = bottom 5
+regions[bottom6] = bottom 6
+
+regions[footer1] = Footer Left (large)
+regions[footer2] = footer 2
+regions[footer3] = footer 3
+regions[footer4] = footer 4
+regions[footer5] = footer 5
+regions[footer6] = Footer Right
+
+; GOOGLE FONTS SETTINGS
+settings[google_enable] = 1 
+settings[heading_fonts_google] = Lato
+settings[menu_fonts_google] = Lato
+settings[slider_fonts_google] = Lato  
+settings[site_fonts_google] = PT Sans 
+settings[quote_fonts_google] = Lato 
+settings[heading_fonts_google_weight] = 300 
+settings[menu_fonts_google_weight] = 300 
+settings[slider_fonts_google_weight] = 300 
+settings[site_fonts_google_weight] = normal 
+settings[quote_fonts_google_weight] = 300 
+
+; TYPO
+settings[menu_font_size] = 18
+settings[site_font_size] = 13
+settings[site_font_family] = '' 
+
+; Custom Background Colors
+settings[link_color] = 529228 
+settings[footer_link_color] = 54773C
+settings[bg_scheme] = stripe_default.png
+settings[custom_bg_attribute] = ''
+settings[theme_color_scheme] = 529228
+
+; Misc settings
+settings[use_login_links] = 1
+settings[icompany_breadcrumb] = 1
+settings[show_feedback_link] = 1 
+settings[footer_note] = '' 
+settings[logo_top_margin] = 35 
+settings[menu_top_margin] = 60
+
+; Tabs
+settings[tabname1] = Tab 1
+settings[tabname2] = Tab 2
+settings[tabname3] = Tab 3
+settings[tabname4] = Tab 4
+settings[tabname5] = Tab 5
+settings[tabname6] = Tab 6
+
+; Portfolio
+settings[porfolio_1col_link] = ''
+settings[porfolio_2col_link] = ''
+settings[porfolio_3col_link] = ''
+settings[porfolio_4col_link] = ''
+
+
+; Sldiers setting
+settings[slider_type] = nivo
+
+; Slide 1
+settings[slide1_image_path] = ''
+settings[slide1_title] = ''
+settings[slide1_caption] = ''
+settings[slide1_btn_title] = ''
+settings[slide1_btn_link] = ''
+
+; Slide 2
+settings[slide2_image_path] = ''
+settings[slide2_title] = ''
+settings[slide2_caption] = ''
+settings[slide2_btn_title] = ''
+settings[slide2_btn_link] = ''
+
+; Slide 3
+settings[slide3_image_path] = ''
+settings[slide3_title] = ''
+settings[slide3_caption] = ''
+settings[slide3_btn_title] = ''
+settings[slide3_btn_link] = ''
+
+; Slide 4
+settings[slide4_image_path] = ''
+settings[slide4_title] = ''
+settings[slide4_caption] = ''
+settings[slide4_btn_title] = ''
+settings[slide4_btn_link] = ''
+
+; Slide 5
+settings[slide5_image_path] = ''
+settings[slide5_title] = ''
+settings[slide5_caption] = ''
+settings[slide5_btn_title] = ''
+settings[slide5_btn_link] = ''
+
+; Slide 6
+settings[slide6_image_path] = ''
+settings[slide6_title] = ''
+settings[slide6_caption] = ''
+settings[slide6_btn_title] = ''
+settings[slide6_btn_link] = ''
+
+; Slide 7
+settings[slide7_image_path] = ''
+settings[slide7_title] = ''
+settings[slide7_caption] = ''
+settings[slide7_btn_title] = ''
+settings[slide7_btn_link] = ''
+
+; Slide 8
+settings[slide8_image_path] = ''
+settings[slide8_title] = ''
+settings[slide8_caption] = ''
+settings[slide8_btn_title] = ''
+settings[slide8_btn_link] = ''
+
+; Slide 9
+settings[slide9_image_path] = ''
+settings[slide9_title] = ''
+settings[slide9_caption] = ''
+settings[slide9_btn_title] = ''
+settings[slide9_btn_link] = ''
+
+; Slide 10
+settings[slide10_image_path] = ''
+settings[slide10_title] = ''
+settings[slide10_caption] = ''
+settings[slide10_btn_title] = ''
+settings[slide10_btn_link] = ''

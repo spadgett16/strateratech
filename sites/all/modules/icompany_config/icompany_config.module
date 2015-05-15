@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the icompany_config feature.
+ */
+
+include_once 'icompany_config.features.inc';

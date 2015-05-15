@@ -1,0 +1,5 @@
+name = iCompany Helper
+description = This is a helper module supplied with iCompany theme. It's purpose is to serve backend of iCompany theme. 
+core = 7.x
+
+files[] = icompany_module.module
