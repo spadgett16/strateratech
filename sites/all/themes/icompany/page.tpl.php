@@ -133,7 +133,7 @@ $you_here = t("You are here: ");
 	<!--Header area -->
 	<header class="row-fluid" id="header">
 		
-		<div id="header_left" class="span5 clearfix">
+		<div id="header_left" class="span3 clearfix">
 			<div class="inner">	
 			<?php if ($logo) { ?><div id="logocontainer"><a href="<?php print $base_path ?>" title="<?php print t('Home') ?>"><img src="<?php print $logo ?>" alt="<?php print t('Home') ?>" /></a></div><?php } ?>
 				<div id="texttitles">
@@ -143,7 +143,7 @@ $you_here = t("You are here: ");
 			</div>
 		</div>
 		
-		<div id="wap-menu" class="span7">
+		<div id="wap-menu" class="span9">
 			<div class="pull-right main_menu_container">
 				
 				<?php
