@@ -3130,6 +3130,7 @@ table tbody + tbody {
   font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
   font-size: 1.6em;
+  color: #529228;
 }
 
 .view-block-home .views-field-body {
