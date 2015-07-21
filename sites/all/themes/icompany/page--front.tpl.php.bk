@@ -128,7 +128,7 @@ $you_here = t("You are here: ");
 </div>
 
 
-<div class="container-fluid theme-border" id="page-wrapper">
+<div class="container-fluid theme-border" id="page-wrapper-top">
 	
 	<!--Header area -->
 	<header class="row-fluid" id="header">
@@ -191,6 +191,8 @@ $you_here = t("You are here: ");
 		<?php } ?>
 		
 	</header><!--Header area -->
+  
+</div><!-- page wrapper -->
 	
 	
 	<!--slider-->
@@ -218,6 +220,7 @@ $you_here = t("You are here: ");
 	</div> 		
 	<?php  } ?>
 	
+<div class="container-fluid theme-border" id="page-wrapper-bottom">
 	
 	<!-- content zone -->
 	<div id="zone1" class="row-fluid">

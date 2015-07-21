@@ -133,9 +133,9 @@ function user_login_links(){
 
  
 // menus customization
-function icompany_menu_tree__main_menu($variables) {
- 	return '<ul id="nav" class="sf-menu">' . $variables['tree'] . '</ul>';
-}
+//function icompany_menu_tree__main_menu($variables) {
+ 	//return '<ul id="nav" class="sf-menu">' . $variables['tree'] . '</ul>';
+//}
 
 
 // count blocks and return number of blocks
