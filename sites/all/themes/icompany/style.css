@@ -3152,12 +3152,19 @@ table tbody + tbody {
   margin: 20px 0;
 }
 
+/********turning off taxonomy terms at end of posts(Scott Padgett 7_/23/2015)*****/
+
+.field-type-taxonomy-term-reference {
+  display: none;
+}
+/********turning off rest of the stylingtaxonomy terms at end of posts****/
+
 .field-type-taxonomy-term-reference {
   margin: 0;
 }
 
 .field-type-taxonomy-term-reference *{
-  display: inline-block;
+/*  display: inline-block;  turned off this display */
   padding-right: 8px;
 }
 
