@@ -1287,12 +1287,14 @@ span.icon-circle-light-facebook {
 }
 .ei-title h2 .elastic-title-inner {
   background: none;
-  color: #000;
+/*  background-color: #E66B28;  */
+  color: #E66B28;
   text-shadow: 1px 1px 1px #fff;
+  font-weight: bold;
 }
 
 .ei-title h3 .elastic-body-inner {
-  background: none;
+  background: transparent white;
   text-shadow: 1px 1px 1px #fff;
 }
 
@@ -1300,6 +1302,7 @@ span.icon-circle-light-facebook {
 
   .ei-title h2  .elastic-title-inner {
     color: #fff !important;
+	background: white;
   }
 }
 /* NIVO SLIDER -------------------*/
@@ -3338,6 +3341,179 @@ table tbody + tbody {
 .view-block-home .views-field-body {
   padding: 0 20px;
 }
+
+/* Block-about */
+
+#zone2 #block-views-block-about-block.block {
+  border-bottom: 0;
+}
+
+.view-block-about .views-row {
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.view-block-about .views-field-field-icon {
+  margin-bottom: 1em;
+}
+
+.view-block-about .views-field-title {
+  margin-bottom: 1em;
+  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  color: #1e667e;
+}
+
+.view-block-about .views-field-body {
+  padding: 0 20px;
+}
+
+/* Block-services */
+
+#zone2 #block-views-block-services-block.block {
+  border-bottom: 0;
+}
+
+.view-block-services .views-row {
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.view-block-services .views-field-field-icon {
+  margin-bottom: 1em;
+}
+
+.view-block-services .views-field-title {
+  margin-bottom: 1em;
+  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  color: #1e667e;
+}
+
+.view-block-services .views-field-body {
+  padding: 0 20px;
+}
+
+/* Block-application-services */
+
+#zone2 #block-views-block-application-services-block.block {
+  border-bottom: 0;
+}
+
+.view-block-application-services .views-row {
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.view-block-application-services .views-field-field-icon {
+  margin-bottom: 1em;
+}
+
+.view-block-application-services .views-field-title {
+  margin-bottom: 1em;
+  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  color: #1e667e;
+}
+
+.view-block-application-services .views-field-body {
+  padding: 0 20px;
+}
+
+/* Block-application-services */
+
+#zone2 #block-views-block-application-services-block.block {
+  border-bottom: 0;
+}
+
+.view-block-application-services .views-row {
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.view-block-application-services .views-field-field-icon {
+  margin-bottom: 1em;
+}
+
+.view-block-application-services .views-field-title {
+  margin-bottom: 1em;
+  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  color: #1e667e;
+}
+
+.view-block-application-services .views-field-body {
+  padding: 0 20px;
+}
+
+
+/* Block-acrowizard */
+
+#zone2 #block-views-block-acrowizard-block.block {
+  border-bottom: 0;
+}
+
+.view-block-acrowizard .views-row {
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.view-block-acrowizard .views-field-field-icon {
+  margin-bottom: 1em;
+}
+
+.view-block-acrowizard .views-field-title {
+  margin-bottom: 1em;
+  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  color: #1e667e;
+}
+
+.view-block-acrowizard .views-field-body {
+  padding: 0 20px;
+}
+
+
+/* Block-technical-support */
+
+#zone2 #block-views-block-technical-support-block.block {
+  border-bottom: 0;
+}
+
+.view-block-technical-support .views-row {
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.view-block-technical-support .views-field-field-icon {
+  margin-bottom: 1em;
+}
+
+.view-block-technical-support .views-field-title {
+  margin-bottom: 1em;
+  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  color: #1e667e;
+}
+
+.view-block-technical-support .views-field-body {
+  padding: 0 20px;
+}
+
+
+
 
 /* Footer Main Menu */
 
